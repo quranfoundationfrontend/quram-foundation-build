@@ -6,10 +6,6 @@ import React from 'react'
 
 // import widgets from " components / dashboard widgets"
 import Dashboardoverview from "../components/dashboardWidgets/DashboardOverview"
-import TempWidget from '../components/dashboardWidgets/TempWidget'
-
-
-// importin charts from components / charts
 const Page = () => {
   return (
     <div>
@@ -37,8 +33,8 @@ const Page = () => {
 
     <Grid
 gridDefinition={[
-{ colspan: { l: 12, m: 12, default: 12 } },
-{ colspan: { l: 12, m: 12, default: 12 } },
+{ colspan: { l: 8, m: 8, default: 12 } },
+{ colspan: { l: 4, m: 4, default: 12 } },
 { colspan: { l: 12, m: 8, default: 12 } },
 { colspan: { l: 4, m: 4, default: 12 } },
 { colspan: { l: 4, m: 4, default: 4 } },
@@ -60,12 +56,12 @@ fitHeight={true}>
 </div>
 {/* col 2 */}
 <Container fitHeight={true}>
-<TempWidget/>
+{/* <ServiceHealth/> */}
 </Container>
 
 {/* col 3 */}
 <Container header={<Header variant='h2'>Raised By Month</Header>} fitHeight={true}>
-{/* <DashboardMonth/> */}
+{/* <BeneficiariesChart/> */}
 </Container>
 
 {/* col 4 */}
