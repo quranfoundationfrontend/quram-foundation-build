@@ -10,7 +10,6 @@ import TempWidget from '../components/dashboardWidgets/TempWidget'
 
 
 // importin charts from components / charts
-import DashboardMonth from '../components/charts/DashboardMonth'
 const Page = () => {
   return (
     <div>
@@ -66,7 +65,7 @@ fitHeight={true}>
 
 {/* col 3 */}
 <Container header={<Header variant='h2'>Raised By Month</Header>} fitHeight={true}>
-<DashboardMonth/>
+{/* <DashboardMonth/> */}
 </Container>
 
 {/* col 4 */}
