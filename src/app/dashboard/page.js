@@ -2,6 +2,11 @@
 import { BreadcrumbGroup , Container, Button, Grid, Header, Link, SpaceBetween} from '@cloudscape-design/components'
 import React from 'react'
 
+
+
+// import widgets from " components / dashboard widgets"
+import Dashboardoverview from "../components/dashboardWidgets/DashboardOverview"
+import TempWidget from '../components/dashboardWidgets/TempWidget'
 const Page = () => {
   return (
     <div>
@@ -44,15 +49,15 @@ gridDefinition={[
 {/* col 1 */}
 <div className='mt-2'>
 
-<Container  description="A summary of our valued donors and their contributions." 
+<Container description="A summary of our valued donors and their contributions." 
 // header={<Header variant='h2'>The Quran Foundation's Financial Overview</Header>} 
 fitHeight={true}>
-{/* <DashboardOverview/> */}
+<Dashboardoverview/>
 </Container>
 </div>
 {/* col 2 */}
 <Container fitHeight={true}>
-{/* <ServiceHealth/> */}
+<TempWidget/>
 </Container>
 
 {/* col 3 */}
