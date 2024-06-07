@@ -7,9 +7,11 @@ import I18nProvider from "@cloudscape-design/components/i18n";
 import { AppLayout, ContentLayout, Flashbar, HelpPanel } from "@cloudscape-design/components";
 import messages from "@cloudscape-design/components/i18n/messages/all.all";
 
-import TQHeader from "./components/TQHeader"
 
+// importing components from src /components
+import TQFHeader from "./components/TQFHeader"
 import SIdebar from './components/SIdeBar'
+
 const inter = Inter({ subsets: ["latin"] });
 
 // export const metadata: Metadata = {
@@ -23,8 +25,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
       <I18nProvider messages={[messages]}>
-      <TQHeader/>
     {/* <TQFHeader/> */}
+      <TQFHeader/>
       <AppLayout
       
         // breadcrumbs={

@@ -17,29 +17,35 @@ const Dashboardoverview = () => {
 The Quran Foundation&apos;s Financial <em>Overview</em>
     </Header>
 
-    <ColumnLayout columns={4} variant="text-grid" minColumnWidth={170}>
+    <ColumnLayout columns={5} variant="text-grid" minColumnWidth={170}>
       <div>
-        <Box variant="awsui-key-label">Running instances</Box>
+        <Box variant="awsui-key-label">Donors</Box>
         <Link variant="awsui-value-large" href="#" ariaLabel="Running instances (14)">
-          14
+          143
         </Link>
       </div>
       <div>
-        <Box variant="awsui-key-label">Volumes</Box>
+        <Box variant="awsui-key-label">Beneficiaries</Box>
         <Link variant="awsui-value-large" href="#" ariaLabel="Volumes (126)">
-          126
+          599
         </Link>
       </div>
       <div>
-        <Box variant="awsui-key-label">Security groups</Box>
+        <Box variant="awsui-key-label">Cash In Hand</Box>
         <Link variant="awsui-value-large" href="#" ariaLabel="Security groups (116)">
-          116
+          11634567₹
         </Link>
       </div>
       <div>
-        <Box variant="awsui-key-label">Load balancers</Box>
+        <Box variant="awsui-key-label">Account Balance</Box>
         <Link variant="awsui-value-large" href="#" ariaLabel="Load balancers (28)">
-          28
+          2888868₹
+        </Link>
+      </div>
+      <div>
+        <Box variant="awsui-key-label">Total Balance</Box>
+        <Link variant="awsui-value-large" href="#" ariaLabel="Load balancers (28)">
+          2888823468₹
         </Link>
       </div>
     </ColumnLayout>
