@@ -75,7 +75,7 @@ fitHeight={true}>
 {/* <Volunteer/> */}
 </Container>
 
-<Container header={<Header variant='h2'>Beneficiaries by Type
+<Container header={<Header variant='h2'>Beneficiaries by Type 
 </Header>}>
 {/* <Volunteer/> */}
 </Container>
